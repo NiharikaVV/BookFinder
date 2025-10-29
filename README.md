@@ -22,23 +22,21 @@ State Management: React’s built-in useState and useEffect hooks
 Hosting / Deployment: CodeSandbox
 
 book-finder/
-│
 ├─ public/
-│   |- index.html
-│ 
+│  └─ index.html                 # HTML template
 │
 ├─ src/
-│   ├─ components/
-│   │   ├─ SearchBar.jsx        # Search bar component
-│   │   └─ BookCard.jsx         # Book card component
-│   │
-│   ├─ App.jsx                  # Main application component
-│   ├─ index.js                 # React entry point
-│   └─ index.css                # Tailwind CSS and custom styles
+│  ├─ components/
+│  │  ├─ SearchBar.jsx           # Search bar component
+│  │  └─ BookCard.jsx            # Book card component
+│  │
+│  ├─ App.jsx                     # Main application component
+│  ├─ index.js                     # React entry point
+│  └─ index.css                    # Tailwind CSS and custom styles
 │
-├─ package.json                 # Project dependencies and scripts
-├─ README.md                    # Project documentation
-└─ tailwind.config.js   
+├─ package.json                    # Project dependencies and scripts
+├─ README.md                       # Project documentation
+└─ tailwind.config.js              # Tailwind configuration (if using Tailwind template)
 
 
 Deployed link |->  https://jzlmrt.csb.app/
