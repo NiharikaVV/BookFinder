@@ -21,10 +21,11 @@ API: Open Library Search API   https://openlibrary.org/search.json?title={bookTi
 State Management: React’s built-in useState and useEffect hooks
 Hosting / Deployment: CodeSandbox
 
-book-finder/
-   public/ index.html                 # HTML template
-   src/
-     components/
+book-finder
+   public
+      index.html                 # HTML template
+   src
+     components
          SearchBar.jsx           # Search bar component
          BookCard.jsx            # Book card component
 
