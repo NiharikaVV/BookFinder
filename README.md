@@ -17,6 +17,31 @@ Mobile-friendly design
 Tech Stack
 Framework: React
 Styling: Tailwind CSS
-API: Open Library Search API
+API: Open Library Search API   https://openlibrary.org/search.json?title={bookTitle}
 State Management: React’s built-in useState and useEffect hooks
 Hosting / Deployment: CodeSandbox
+
+book-finder/
+│
+├─ public/
+│   |- index.html
+│ 
+│
+├─ src/
+│   ├─ components/
+│   │   ├─ SearchBar.jsx        # Search bar component
+│   │   └─ BookCard.jsx         # Book card component
+│   │
+│   ├─ App.jsx                  # Main application component
+│   ├─ index.js                 # React entry point
+│   └─ index.css                # Tailwind CSS and custom styles
+│
+├─ package.json                 # Project dependencies and scripts
+├─ README.md                    # Project documentation
+└─ tailwind.config.js   
+
+
+Deployed link |->  https://jzlmrt.csb.app/
+
+<img width="546" height="180" alt="image" src="https://github.com/user-attachments/assets/2afaf2e1-5098-4991-858a-4d311e990205" />
+<img width="324" height="639" alt="image" src="https://github.com/user-attachments/assets/0d4937aa-e7f2-4e48-8177-5635621272fc" />
